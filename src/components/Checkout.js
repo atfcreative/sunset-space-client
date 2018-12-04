@@ -21,7 +21,7 @@ const errorPayment = data => {
 
 const onToken = (amount, description) => token => 
     
-    axios.post(PAYMENT_SERVER_URL,
+    axios.post('https://sunset-space-server.herokuapp.com/',
         {
             description,
             source: token.id,
