@@ -16,7 +16,7 @@ fileSelectedHandler = event => {
 fileUploadHandler = () => {
     const fd = new FormData();
     fd.append('image', this.state.selectedFile, this.state.selectedFile.name);
-    axios.post('https://ss-test-server.herokuapp.com/public/uploads', fd)
+    axios.post('https://sunset-space-server.herokuapp.com/public/uploads', fd)
         // onUploadProgress: ProgressEvent => {
         //     console.log('Upload progress: ' + Math.round(ProgressEvent.loaded / ProgressEvent.total * 100) + '%') 
         // }
