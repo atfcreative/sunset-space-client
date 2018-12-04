@@ -204,19 +204,17 @@ render() {
               <div className="text-center">
                 <img src={items.avatar.imgUrl} className="avatar rounded-circle img-thumbnail mb-3" alt="avatar"/>
                 
-                    <div className="custom-file">
+                    <div className="file">
                         <input 
                         type="file" 
                         name=""
                         id="" 
-                        onChange={this.handleFile}
-                        className="custom-file-input" 
+                        onChange={this.handleFile} 
                         />
-                        <label className="custom-file-label" htmlFor="customFile">Change...<i className="fas fa-file-upload"></i></label>
                         <button 
                         type="submit" 
                         onClick={this.handleFileSubmit} 
-                        className="badge badge-sm">Upload</button>
+                        className="button fit small special mt-2">Upload</button>
                     </div>
                 
 
@@ -237,7 +235,7 @@ render() {
                               
                                 <div className="row">
                                     <div className="col-sm mb-4">
-                                      <label htmlFor="first_name"><h6>First Name: {items.firstName}</h6></label>
+                                      <label htmlFor="first_name"><h5>First Name: {items.firstName}</h5></label>
                                       <input 
                                       type="text" 
                                       className="form-control" 
@@ -248,7 +246,7 @@ render() {
                                       />
                                       </div>
                                     <div className="col-sm mb-4">
-                                        <label htmlFor="last_name"><h6>Last Name: {items.lastName}</h6></label>
+                                        <label htmlFor="last_name"><h5>Last Name: {items.lastName}</h5></label>
                                         <input 
                                         type="text" 
                                         className="form-control" 
@@ -263,7 +261,7 @@ render() {
                                 
                                 <div className="row">
                                     <div className="col-sm mb-4">
-                                      <label htmlFor="username"><h6>Username: {items.username}</h6></label>
+                                      <label htmlFor="username"><h5>Username: {items.username}</h5></label>
                                       <input 
                                       type="text" 
                                       className="form-control" 
@@ -276,7 +274,7 @@ render() {
                                   
                                     </div>
                                     <div className="col-sm mb-4">
-                                      <label htmlFor="phone"><h6>Phone: {items.phone}</h6></label>
+                                      <label htmlFor="phone"><h5>Phone: {items.phone}</h5></label>
                                       <input type="text" 
                                       className="form-control" 
                                       name="phone" 
@@ -289,7 +287,7 @@ render() {
 
                                 <div className="row">
                                     <div className="col-sm mb-4">
-                                      <label htmlFor="email"><h6>Email: {items.email}</h6></label>
+                                      <label htmlFor="email"><h5>Email: {items.email}</h5></label>
                                       <input 
                                       type="email" 
                                       className="form-control" 
@@ -301,7 +299,7 @@ render() {
                                     </div>
 
                                     <div className="col-sm mb-4">
-                                      <label htmlFor="website"><h6>Website: {items.website}</h6></label>
+                                      <label htmlFor="website"><h5>Website: {items.website}</h5></label>
                                       <input 
                                       type="text" 
                                       className="form-control" 
@@ -325,7 +323,7 @@ render() {
                                 </div>
                                 <div className="col-sm-12">
                                     <br />
-                                    <button className="button fit special" type="submit">Save and Update</button>
+                                    <button className="button big fit special" type="submit">Save and Update</button>
                                 </div>
                             </form>
                             <br/>
@@ -337,7 +335,7 @@ render() {
                             
                                 <div className="row">
                                         <div className="col-sm mb-4">
-                                        {/* <label htmlFor="email"><h6>Password: {items.email}</h6></label> */}
+                                        {/* <label htmlFor="email"><h5>Password: {items.email}</h5></label> */}
                                         <input 
                                         type="password" 
                                         className="form-control" 
