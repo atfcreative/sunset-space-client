@@ -59,7 +59,7 @@ class LogInForm extends Component {
             password: this.state.password
         }
 
-    axios.post('http://localhost:4000/api/users/signin', userData)
+    axios.post('https://sunset-space-server.herokuapp.com/api/users/signin', userData)
         .then(res => {
             // console.log(res);
             const {token} = res.data;

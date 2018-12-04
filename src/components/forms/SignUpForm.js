@@ -28,7 +28,7 @@ class SignUpForm extends Component {
           username: this.state.username,
           password: this.state.password,
         }
-        axios.post(process.env.NODE_ENV === 'production' ? 'mongodb://sunset-space-user:testing321@ds113693.mlab.com:13693/heroku_6h37hbnb' : 'http://localhost:4000/api/users/register', newUser)
+        axios.post('https://sunset-space-server.herokuapp.com/api/users/register', newUser)
           .then(res => {
             this.props.history.push('/signin')
           })
