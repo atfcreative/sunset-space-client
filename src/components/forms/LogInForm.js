@@ -59,7 +59,7 @@ class LogInForm extends Component {
             password: this.state.password
         }
 
-    axios.post('https://sunset-space-server.herokuapp.com/api/users/signin', userData)
+    axios.post('https://ss-test-server.herokuapp.com//api/users/signin', userData)
         .then(res => {
             // console.log(res);
             const {token} = res.data;
@@ -130,13 +130,3 @@ class LogInForm extends Component {
 }
  
 export default LogInForm;
-
-
-
-
-
-
-
-
-
-

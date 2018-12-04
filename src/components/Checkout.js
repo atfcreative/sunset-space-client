@@ -3,7 +3,7 @@ import axios from 'axios';
 import StripeCheckout from 'react-stripe-checkout';
 
 import STRIPE_PUBLISHABLE from '../constants/stripe';
-import PAYMENT_SERVER_URL from '../constants/server';
+// import PAYMENT_SERVER_URL from '../constants/server';
 
 const CURRENCY = 'USD';
 
@@ -21,7 +21,7 @@ const errorPayment = data => {
 
 const onToken = (amount, description) => token => 
     
-    axios.post('https://sunset-space-server.herokuapp.com/',
+    axios.post('https://ss-test-server.herokuapp.com/',
         {
             description,
             source: token.id,

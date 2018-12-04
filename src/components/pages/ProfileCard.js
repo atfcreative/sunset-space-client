@@ -36,7 +36,7 @@ class ProfileCard extends Component {
         // let avatar = db.Avatar;
         // fetch('http://localhost:4000/uploads/')
 
-        fetch('http://localhost:4000/api/users/' + id)
+        fetch('https://ss-test-server.herokuapp.com/api/users/' + id)
             .then(res => res.json())
             .then(json => {
                 this.setState({
@@ -73,7 +73,7 @@ class ProfileCard extends Component {
         const formData = new FormData();
         formData.append('file', this.state.file, this.state.file.name);
 
-        axios.post('http://localhost:4000/api/avatar/' + id, formData)
+        axios.post('https://ss-test-server.herokuapp.com/api/avatar/' + id, formData)
             .then((response) => {
                 alert('The file uploaded successfully');
                 this.fetchUser();
@@ -109,7 +109,7 @@ class ProfileCard extends Component {
 
         let user = jwt_decode(localStorage.getItem('jwtToken'));
         let id = user._id;
-        axios.put('http://localhost:4000/api/users/' + id, userData)
+        axios.put('https://ss-test-server.herokuapp.com/api/users/' + id, userData)
         .then(res => {
             this.setState({
                 items: userData,
@@ -154,7 +154,7 @@ handleDelete = (event) => {
         let user = jwt_decode(localStorage.getItem('jwtToken'));
         let id = user._id;
 
-    axios.delete('http://localhost:4000/api/users/' + id)
+    axios.delete('https://ss-test-server.herokuapp.com/api/users/' + id)
         .then(res => {
             console.log(res);
             alert('Boo! You deleted your profile');
