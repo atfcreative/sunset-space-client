@@ -11,7 +11,8 @@ class UsersList extends Component {
 
     componentDidMount() {
 
-        fetch('https://sunset-space-server.herokuapp.com/api/users')
+        fetch('http://localhost:4000/api/users')
+        // fetch('https://sunset-space-server.herokuapp.com/api/users')
         .then(res => res.json())
         .then(json => {
             this.setState({
