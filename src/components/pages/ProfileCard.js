@@ -202,7 +202,7 @@ render() {
                 <div className="col-sm-3">
               
               <div className="text-center">
-                <img src={items.avatar.imgUrl} className="avatar rounded-circle img-thumbnail mb-3" alt="avatar"/>
+                <img src={'https://sunset-space-server.herokuapp.com' + items.avatar.imgUrl} className="avatar rounded-circle img-thumbnail mb-3" alt="avatar"/>
                 
                     <div className="file">
                         <input 
