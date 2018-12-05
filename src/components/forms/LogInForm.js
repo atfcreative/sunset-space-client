@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import jwt_decode from 'jwt-decode';
 import axios from 'axios';
+import brandingLogoSm from '../../images/branding-logo-sm.svg';
 
 class LogInForm extends Component {
     state = { 
@@ -93,10 +94,12 @@ class LogInForm extends Component {
     render() { 
         return (
             <div className="container">
+            <br/>
             <div className="row justify-content-center">
-              <div className="col-12 col-md-8 col-lg-8 col-xl-6">
-                <form onSubmit={this.handleSubmit}>
+                <div className="col-12 col-md-8 col-lg-8 col-xl-6">
+               <form onSubmit={this.handleSubmit}>
                     <div className="col text-center">
+                    <img src={brandingLogoSm} alt="" />
                       <h1>Login</h1>
                       <p className="text-h3"><strong>Welcome back,</strong> Glad to see you again!</p>
                      </div>
@@ -115,7 +118,7 @@ class LogInForm extends Component {
                         {this.state.passwordError}
                         {this.state.passwordError2}
                     </div>
-                        <p className="text-muted">Per our privacy policy, we will never share personal information. <Link to="/">Learn more...</Link></p>
+                        <p className="text-muted small">Per our privacy policy, we will never share personal information. <Link to="/">Learn more...</Link></p>
                     </div>
                     
                     <button type="submit" className="button fit special">Submit</button>

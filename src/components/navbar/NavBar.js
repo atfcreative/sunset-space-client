@@ -7,13 +7,13 @@ const NavBar = (props) => {
     let navbar;
     if (props.isAuthenticated) {
         navbar = <LoggedInNavBar handleLogout={props.handleLogout} key={toString()}/>
-    }else{
+    } else {
         navbar = <LoggedOutNavBar key={toString()}/>
     }
     return (
-            [navbar]
-        );
-    }
+        [navbar]
+    );
+}
 
  
 export default NavBar;

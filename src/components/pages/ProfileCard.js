@@ -147,12 +147,23 @@ handleLogout = () => {
 ///////////////////////////////////////////////////////////////////////
 //==== DELETE PROFILE logic
 ///////////////////////////////////////////////////////////////////////
+handleLogout = () => {
+    // console.log(`someone clicked logout, what the...`)
+    if (localStorage.getItem('jwtToken') !== null ) {
+      localStorage.removeItem('jwtToken');
+      this.setState({ currentUser: null, isAuthenticated: false });
+    };
+  };
+
+
 
 handleDelete = (event) => {
-        event.preventDefault();
-
         let user = jwt_decode(localStorage.getItem('jwtToken'));
         let id = user._id;
+    
+        event.preventDefault();
+        this.handleLogout();
+        
 
     axios.delete('https://sunset-space-server.herokuapp.com/api/users/' + id)
         .then(res => {

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import brandingLogoSm from '../../images/branding-logo-sm.svg';
 
 class SignUpForm extends Component {
     state = { 
@@ -41,14 +42,17 @@ class SignUpForm extends Component {
         return (
             
             <form className="container" onSubmit={this.handleSubmit} method="post">
+            <br/>
+            
               <div className="row justify-content-center">
+              
                 <div className="col-12 col-md-8 col-lg-8 col-xl-6">
                   <div className="row">
                     <div className="col text-center">
+                    <img src={brandingLogoSm} alt="" />
                       <h1>Register</h1>
-                      <small><strong>FREE</strong> and Easy!</small>
-                      <p className="text-muted">Per our privacy policy, we will never share personal information <Link to="/">learn more</Link></p>
-                    </div>
+                      <small>Become a member. It's<strong> FREE</strong> and Easy!</small>
+                      </div>
                   </div>
                   <div className="row align-items-center mt-4">
                     <div className="col">
@@ -80,12 +84,12 @@ class SignUpForm extends Component {
                     <div className="col">
                       <div className="form-check">
                         <label className="form-check-label">
-                          <input type="checkbox" className="form-check-input" />
-                          <small className="text-muted">I Read and Accept <Link to="/">Terms and Conditions</Link></small>
+                          <small className="text-muted">Sunset Space <Link to="/">Terms and Conditions</Link></small>
                         </label>
                       </div>
         
                       <button className="button fit special mt-5">Submit</button>
+                      <p className="text-muted">Per our privacy policy, we will never share personal information. <br/><Link to="/">learn more</Link></p>
                     </div>
                   </div>
                 </div>

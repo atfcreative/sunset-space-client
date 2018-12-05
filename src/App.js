@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch, } from 'react-router-dom'; //Redirect
 import jwt_decode from 'jwt-decode';
-import NavBar from './components/navbar/NavBar';
+import NavBar from './components/navbar/navbarNew/NavBarNew';
 import LoginForm from './components/forms/LogInForm';
 import SignUpForm from './components/forms/SignUpForm';
 import ProfilePage from './components/pages/ProfilePage';
