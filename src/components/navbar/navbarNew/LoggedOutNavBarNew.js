@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import '../../../assets/sass/navbar.scss';
+import branding200 from '../../../images/branding200x200.svg';
 
 
 class LoggedOutNavBarNew extends Component {
@@ -77,7 +78,7 @@ class LoggedOutNavBarNew extends Component {
 
                 <nav className="menu">
                 <div className="menu__brand">
-                    <Link to=""><div className="logo"></div></Link>
+                    <Link to=""><div className="logo"><img src={branding200} alt="sunset-space logo" className="image fit" /></div></Link>
                 </div>
                 <ul className="menu__list">
                     <li className="menu__item"><Link to="/plans" className="menu__link">Plans</Link></li>

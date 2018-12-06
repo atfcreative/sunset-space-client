@@ -8,7 +8,7 @@ class Banner extends Component {
             
         <section id="banner">
             <header className="major">
-                <img src={branding} alt="" className="image" /><br/>
+                <img src={branding} alt="" className="image"  /><br/>
                 <h5>A co-working and community space</h5>
                 
             </header>
