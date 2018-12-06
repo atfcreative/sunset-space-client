@@ -116,17 +116,19 @@
 ## Unsolved Problems
 * Issues with on Delete of User
 * Issues with Stripe Button/Customization
-* Issues with Heroku Latency
-* Date format
-
-
-## Wins/Challenges
+* Date formats
+* Notifications, thank you page, UI flow.
 
 ### Code blocks...
 
 ![code2](md_images/code2.jpg)
 
 ![code1](md_images/code1.jpg)
+
+
+## Challenges/Wins
+
+
 
 #### Challenges
 > Multer, new challenge especially to refresh the profile image automatically.
