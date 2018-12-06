@@ -158,23 +158,25 @@ handleLogout = () => {
 
 
 handleDelete = (event) => {
-        let user = jwt_decode(localStorage.getItem('jwtToken'));
-        let id = user._id;
+    event.preventDefault();
+    let user = jwt_decode(localStorage.getItem('jwtToken'));
+    let id = user._id;
+    console.log(this.state.user, this.state.isAuthenticated);
     
-        event.preventDefault();
-        this.handleLogout();
-        
+    this.handleLogout();
+    console.log(this.state.user, this.state.isAuthenticated);
 
     axios.delete('https://sunset-space-server.herokuapp.com/api/users/' + id)
         .then(res => {
             console.log(res);
             alert('Boo! You deleted your profile');
         })
-        .then(res => {
-            if (user._id === null ) {
-                this.setState({ currentUser: null, isAuthenticated: false })
-              }
-        })
+        // .then(res => {
+        //     if (user._id === null ) {
+        //         this.setState({ currentUser: null, isAuthenticated: false })
+        //     }
+        // })
+
         .then(() => this.setState({ redirect: true }))
         .catch(err => {
             alert(`Brudda, no can delete...`)

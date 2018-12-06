@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink, Link, Redirect } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import '../../../assets/sass/navbar.scss';
 
 

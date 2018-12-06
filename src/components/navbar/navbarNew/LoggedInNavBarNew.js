@@ -21,7 +21,7 @@ const LoggedOutNavBar = (props) => {
                     </li>
                     
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/profile" key={toString()} style={{ textDecoration:"none", color: "#777" }}><i class="fas fa-user-circle"></i>&nbsp;Profile</NavLink>
+                        <NavLink className="nav-link" to="/profile" key={toString()} style={{ textDecoration:"none", color: "#777" }}><i className="fas fa-user-circle"></i>&nbsp;Profile</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink className="nav-link button small" to="/signin" onClick={props.handleLogout} key={toString()} style={{ textDecoration:"none" }}>Logout<span className="sr-only">(current)</span></NavLink>
