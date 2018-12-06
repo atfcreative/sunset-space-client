@@ -161,8 +161,9 @@ handleDelete = (event) => {
     event.preventDefault();
     let user = jwt_decode(localStorage.getItem('jwtToken'));
     let id = user._id;
-    console.log(this.state.user, this.state.isAuthenticated);
     
+    debugger;
+    console.log(this.state.user, this.state.isAuthenticated);
     this.handleLogout();
     console.log(this.state.user, this.state.isAuthenticated);
 
@@ -170,14 +171,8 @@ handleDelete = (event) => {
         .then(res => {
             console.log(res);
             alert('Boo! You deleted your profile');
+            this.setState({ redirect: true })
         })
-        // .then(res => {
-        //     if (user._id === null ) {
-        //         this.setState({ currentUser: null, isAuthenticated: false })
-        //     }
-        // })
-
-        .then(() => this.setState({ redirect: true }))
         .catch(err => {
             alert(`Brudda, no can delete...`)
             console.log(err)
