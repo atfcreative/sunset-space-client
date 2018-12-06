@@ -15,6 +15,7 @@ class LoggedOutNavBarNew extends Component {
       const menuList = document.querySelector('.menu__list');
       const brand = document.querySelector('.menu__brand');
       const menuItems = document.querySelectorAll('.menu__item');
+      const menuLinks = document.querySelectorAll('.menu__link');
       
       let active = false;
       
@@ -44,6 +45,10 @@ class LoggedOutNavBarNew extends Component {
       
       let bindActions = function() {
         burger.addEventListener('click', toggleMenu, false);
+        
+        menuLinks.forEach(function(ml) {
+          ml.addEventListener('click', toggleMenu, false);
+        })
       };
       
       let init = function() {
