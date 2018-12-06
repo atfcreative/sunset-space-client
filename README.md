@@ -99,11 +99,12 @@
 ![ERD](md_images/debug.jpg)
 
 
-* Sprint 6: Fonts/Styles/CSS/SASS
+* Sprint 6: Front-End Polish
+    * Fonts/Styles/CSS/SASS
     * UI/UX, Flow etc
     * Navbar overlay, animation
     * Built out, test
-    * Re-deploy to Heroku (scary)
+    * Re-deploy to Heroku (😬)
 
 * Sprint 7: Fix Bugs
     * Responsive check
@@ -117,17 +118,16 @@
 * Issues with on Delete of User
 * Issues with Stripe Button/Customization
 * Issues with Heroku Latency
+* Date format
 
 
 ## Wins/Challenges
 
-### + Code blocks that I am proud of...
+### Code blocks that I am proud of...
 
 ![code1](md_images/code1.jpg)
 
 ![code2](md_images/code2.jpg)
-
-![code3](md_images/code3.jpg)
 
 
 #### Wins-1
