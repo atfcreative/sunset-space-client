@@ -16,7 +16,7 @@
 ##### Other Technologies Used
 
 * JWT - Authentication (explain)
-    * A JSON web token, or JWT (“jot”) for short, is a standardized, optionally validated and/or encrypted container format that is used to securely transfer information between two parties.
+    * A JSON web token, encrypted container format that is used to securely transfer information between two parties. JWTs are credentials, which can grant access to resources.
 * Multer - Image upload (explain)
     * Multer is a node.js middleware for handling multipart/form-data
 * Stripe API - Payments
