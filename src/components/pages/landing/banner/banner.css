@@ -1,0 +1,24 @@
+/* Logo Animation */
+
+@keyframes fadeInUp {
+	from {
+	  opacity: 0;
+	  -webkit-transform: translate3d(0, 100%, 0);
+	  transform: translate3d(0, 100%, 0);
+	}
+	to {
+	  opacity: 1;
+	  -webkit-transform: none;
+	  transform: none;
+	}
+  }
+  #banner img {
+	opacity: 0;
+	animation: fadeInUp 1s ease-in-out 0s forwards;
+  }
+  #banner img.first {
+	animation-delay: 1s;
+  }
+  #banner img.second {
+	animation-delay: 3s;
+  }

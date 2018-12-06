@@ -135,41 +135,29 @@ class ProfileCard extends Component {
 //==== LOGOUT profile logic
 ///////////////////////////////////////////////////////////////////////
 
-handleLogout = () => {
-    // console.log(`someone clicked logout, what the...`)
-    if (localStorage.getItem('jwtToken') !== null ) {
-      localStorage.removeItem('jwtToken');
-      this.setState({ currentUser: null, isAuthenticated: false });
-    };
-  };
+// handleLogout = () => {
+//     // console.log(`someone clicked logout, what the...`)
+//     if (localStorage.getItem('jwtToken') !== null ) {
+//       localStorage.removeItem('jwtToken');
+//       this.setState({ currentUser: null, isAuthenticated: false });
+//     };
+//   };
 
 
 ///////////////////////////////////////////////////////////////////////
 //==== DELETE PROFILE logic
 ///////////////////////////////////////////////////////////////////////
-handleLogout = () => {
-    // console.log(`someone clicked logout, what the...`)
-    if (localStorage.getItem('jwtToken') !== null ) {
-      localStorage.removeItem('jwtToken');
-      this.setState({ currentUser: null, isAuthenticated: false });
-    };
-  };
-
-
-
 handleDelete = (event) => {
     event.preventDefault();
     let user = jwt_decode(localStorage.getItem('jwtToken'));
     let id = user._id;
-    
-    this.handleLogout();
-    console.log(this.state.user, this.state.isAuthenticated);
 
-    axios.delete('https://sunset-space-server.herokuapp.com/api/users/' + id)
+   axios.delete('https://sunset-space-server.herokuapp.com/api/users/' + id)
         .then(res => {
             console.log(res);
             alert('Boo! You deleted your profile');
             this.setState({ redirect: true })
+            // this.props.handleLogout();
         })
         .catch(err => {
             alert(`Brudda, no can delete...`)

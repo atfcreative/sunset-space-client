@@ -78,9 +78,10 @@ class LoggedOutNavBarNew extends Component {
 
                 <nav className="menu">
                 <div className="menu__brand">
-                    <Link to=""><div className="logo"><img src={branding200} alt="sunset-space logo" className="image fit" /></div></Link>
+                    <Link to="/"><div className="logo"><img src={branding200} alt="sunset-space logo" className="image fit" /></div></Link>
                 </div>
                 <ul className="menu__list">
+                    <li className="menu__item"><Link to="/" className="menu__link">Home</Link></li>
                     <li className="menu__item"><Link to="/plans" className="menu__link">Plans</Link></li>
                     <li className="menu__item"><Link to="/about" className="menu__link">About</Link></li>
                     <li className="menu__item">
