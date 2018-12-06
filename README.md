@@ -1,44 +1,129 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# *-Final Project-*
 
-## Available Scripts
+sunset-space.herokuapp.com
 
-In the project directory, you can run:
+==================================
 
-### `npm start`
+##### MERN Stack
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Mongoose/MongoDB
+* Express
+* React
+* Node
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+##### Other Technologies Used
 
-### `npm test`
+* JWT - Authentication (explain)
+    * A JSON web token, or JWT (“jot”) for short, is a standardized, optionally validated and/or encrypted container format that is used to securely transfer information between two parties.
+* Multer - Image upload (explain)
+    * Multer is a node.js middleware for handling multipart/form-data
+* Stripe API - Payments
+* Vanilla JavaScript - Functionality
+* CSS3 - Animations/Styles
+* SASS/SCSS - Navigation
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+===================================
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###Process/ Approach====>
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+* Research
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Decisons
 
-### `npm run eject`
+* Wireframes
+![Wireframes](images/wire1.jpg)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Wireframes](images/wire2.jpg)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* ERD (Entity Relationship Diagram)
+![ERD](images/erd.jpg)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Sprint 1: Back-End Build Out
+    * Back-End Test
+    * Use Postman to test all CRUD
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Sprint 2: Front-End Boiler Plate
+    * Skeleton- forms, cards
+    * JWT Auth
+    * Sign In/Out
+    * Logic/Funcionality
+    * Test Front-End, Back-End connection
+    * Axios GET, POST, PUT, DELETE
 
-## Learn More
+* Sprint 3: Stripe API
+    * Stripe Tutorial
+    * Stripe Integration into project
+    * Stripe Testing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Sprint 4 Multer
+    * Multer Tutorial
+    * Multer Integration
+    * Create new API avatar endpoint
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Sprint 5: Heroku
+![Heroku](md_images/heroku.jpg)
+    * Deploy, debug, changes
+    * Deploy, debug, changes
+    * Deploy, debug, changes
+    * Deploy, debug, changes
+    * Deploy, debug, changes
+    * Deploy, debug, changes
+    * Deploy, debug, changes
+    * Deploy, debug, changes
+    * Deploy, debug, changes
+    * Deploy, debug, changes
+    * Deploy, debug, changes
+    * Deploy, debug, changes
+![ERD](md_images/debug.jpg)
+    * Deploy, debug, changes
+    * Deploy, 229 more times!
+
+
+* Sprint 6: Fonts/Styles/CSS/SASS
+    * UI/UX, Flow etc
+    * Navbar overlay, animation
+    * Built out, test
+    * Re-deploy to Heroku (scary)
+
+* Sprint 7: Fix Bugs
+    * Respnsive check
+    * Media Queries
+
+
+===================================
+
+##Unsolved Problems====>
+* Issues with on Delete of User
+* Issues with Stripe Button/Customization
+* Issues with Heroku Latency
+
+
+##Wins/Challenges====>
+
+###+ Code blocks that I am proud of...
+
+![code1](md_images/code1.jpg)
+
+![code2](md_images/code2.jpg)
+
+![code3](md_images/code3.jpg)
+
+
+####Wins-1
+> Met requirements, MVP!
+> Step-by-step...was able to move forward by breaking into small bite-size chunks.
+> Learned React! First working full stack app!
+> From the ground up, not a tutorial!
+> Tamed the Heroku beast!
+
+####Challenges
+> Multer, new challenge especially to refresh the profile image automatically.
+> Focus on the plan Strategize and implement.
+> Heroku!!!
+
+####THANK YOU
+To everyone, especially Kenny and Brock! Mostly Kenny.
+
+
+
