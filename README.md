@@ -82,19 +82,19 @@
 ![Heroku](md_images/heroku.jpg)
 
 * Deploy, debug, changes
-    * Deploy, debug, changes
-    * Deploy, debug, changes
-    * Deploy, debug, changes
-    * Deploy, debug, changes
-    * Deploy, debug, changes
-    * Deploy, debug, changes
-    * Deploy, debug, changes
-    * Deploy, debug, changes
-    * Deploy, debug, changes
-    * Deploy, debug, changes
-    * Deploy, debug, changes
-    * Deploy, debug, changes
-    * Deploy, 229 more times!
+* Deploy, debug, changes
+* Deploy, debug, changes
+* Deploy, debug, changes
+* Deploy, debug, changes
+* Deploy, debug, changes
+* Deploy, debug, changes
+* Deploy, debug, changes
+* Deploy, debug, changes
+* Deploy, debug, changes
+* Deploy, debug, changes
+* Deploy, debug, changes
+* Deploy, debug, changes
+* Deploy, 229 more times
 
 ![Debug](md_images/debug.jpg)
 
