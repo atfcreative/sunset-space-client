@@ -94,8 +94,8 @@ class LoggedOutNavBarNew extends Component {
                 </ul>
                 </nav>
                     
-                    <NavLink to="/signin" className="button small special image right mr-2 mt-1">Login</NavLink>
-                    <NavLink to="/register" className="button small image right mr-1 mt-1">Sign Up</NavLink>
+                    <NavLink to="/signin" className="button small special image right mr-2 mt-1 pl-4 pr-4">Login</NavLink>
+                    <NavLink to="/register" className="button small image right mr-1 mt-1 pl-4 pr-4">Sign Up</NavLink>
                    
             </header>
     </div>

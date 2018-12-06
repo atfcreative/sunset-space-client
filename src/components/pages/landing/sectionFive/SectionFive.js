@@ -8,10 +8,10 @@ class SectionFive extends Component {
             <section id="five" className="wrapper style1 special alt">
 				<div className="inner">
 					<h4>About This Project</h4>
-					<img src={mern} alt="mern stack" />
+					<img src={mern} alt="mern stack" className="image fit" />
 					<p>This project was built utilizing the MERN stack, which is a collection of JavaScript based technologies — MongoDB, Express.js, ReactJS, and Node.js</p>
 					<ul className="actions">
-						<li><Link to="https://atfcreative.com" className="button">The Developers Portfolio</Link></li>
+						<li><Link to="#" className="button">The Developers Portfolio</Link></li>
 					</ul>
 				</div>
 			</section>

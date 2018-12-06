@@ -11,18 +11,19 @@ class Banner extends Component {
         <section id="banner">
             <header className="major">
             <div>
-                <img class="first image " alt="" src={logo} />
+                <img className="first image " alt="" src={logo} />
             </div>
             
             <div>
-                <img class="second image" alt="" src={type} />
+                <img className="second image" alt="" src={type} />
             </div>
             <br/>
-                <h5>A co-working and community space</h5>
+                <h5>A co-working and community space</h5><br/>
                 
             </header>
             <ul className="actions">
-                <li><Link to="#one" className="button">Proceed</Link></li>
+                <li><i className="fas fa-chevron-circle-down fa-3x" style={{color: "#ccc", opacity:"0.4"}}></i></li>
+                {/* <li><Link to="#one" className="button">Proceed</Link></li> */}
             </ul>
         </section>
         );
