@@ -1,10 +1,12 @@
-# *-Final Project-*
+# Final Project
 
-sunset-space.herokuapp.com
+## sunset-space.herokuapp.com
+
+### This project is a website for a 'FREEMIUM' based busineess. The business- 'Sunset Space' is a hypothetical co-working space in the Outer Sunset, SF.
 
 ==================================
 
-##### MERN Stack
+### MERN Stack
 
 * Mongoose/MongoDB
 * Express
@@ -25,11 +27,19 @@ sunset-space.herokuapp.com
 
 ===================================
 
-###Process/ Approach====>
+### Process/ Approach
 
 * Research
 
-* Decisons
+* User Story
+    * User can visit / to see a landing page
+    * User can Login or Register
+    * User can navigate to see the plans for membership without being logged in.
+    * User can navigate to see the plans for membership without being logged in.
+    * Logged in User will be directed to a profile page.
+    * Logged in User can edit/update the profile information.
+    * Logged in User can upload, refresh profile photo.
+    * Looged in User can logout and be redirected to signin page.
 
 * Wireframes
 
@@ -96,21 +106,22 @@ sunset-space.herokuapp.com
     * Re-deploy to Heroku (scary)
 
 * Sprint 7: Fix Bugs
-    * Respnsive check
+    * Responsive check
     * Media Queries
+    * ...
 
 
 ===================================
 
-##Unsolved Problems====>
+## Unsolved Problems
 * Issues with on Delete of User
 * Issues with Stripe Button/Customization
 * Issues with Heroku Latency
 
 
-##Wins/Challenges====>
+## Wins/Challenges
 
-###+ Code blocks that I am proud of...
+### + Code blocks that I am proud of...
 
 ![code1](md_images/code1.jpg)
 
@@ -119,19 +130,19 @@ sunset-space.herokuapp.com
 ![code3](md_images/code3.jpg)
 
 
-####Wins-1
+#### Wins-1
 > Met requirements, MVP!
 > Step-by-step...was able to move forward by breaking into small bite-size chunks.
 > Learned React! First working full stack app!
 > From the ground up, not a tutorial!
 > Tamed the Heroku beast!
 
-####Challenges
+#### Challenges
 > Multer, new challenge especially to refresh the profile image automatically.
 > Focus on the plan Strategize and implement.
 > Heroku!!!
 
-####THANK YOU
+#### THANK YOU
 To everyone, especially Kenny and Brock! Mostly Kenny.
 
 
