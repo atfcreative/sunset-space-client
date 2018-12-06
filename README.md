@@ -2,7 +2,7 @@
 
 ## sunset-space.herokuapp.com
 
-### This project is a website for a 'FREEMIUM' based busineess. The business- 'Sunset Space' is a hypothetical co-working space in the Outer Sunset, SF.
+### This project is a website for a 'FREEMIUM' based business. The business- 'Sunset Space' is a hypothetical co-working space in the Outer Sunset, SF.
 
 ==================================
 
@@ -140,10 +140,11 @@
 #### Challenges
 > Multer, new challenge especially to refresh the profile image automatically.
 > Focus on the plan Strategize and implement.
+> jQuery incompatible with React.
 > Heroku!!!
 
 #### THANK YOU
-To everyone, especially Kenny and Brock! Mostly Kenny.
+To everyone, especially Kenny and Brock!
 
 
 
