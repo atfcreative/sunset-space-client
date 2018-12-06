@@ -162,8 +162,6 @@ handleDelete = (event) => {
     let user = jwt_decode(localStorage.getItem('jwtToken'));
     let id = user._id;
     
-    debugger;
-    console.log(this.state.user, this.state.isAuthenticated);
     this.handleLogout();
     console.log(this.state.user, this.state.isAuthenticated);
 
