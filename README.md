@@ -96,7 +96,7 @@
     * Deploy, debug, changes
     * Deploy, 229 more times!
 
-![ERD](md_images/debug.jpg)
+![Debug](md_images/debug.jpg)
 
 
 * Sprint 6: Front-End Polish
