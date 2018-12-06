@@ -81,7 +81,7 @@
 
 ![Heroku](md_images/heroku.jpg)
 
-    * Deploy, debug, changes
+* Deploy, debug, changes
     * Deploy, debug, changes
     * Deploy, debug, changes
     * Deploy, debug, changes
@@ -97,7 +97,6 @@
     * Deploy, 229 more times!
 
 ![Debug](md_images/debug.jpg)
-
 
 * Sprint 6: Front-End Polish
     * Fonts/Styles/CSS/SASS
@@ -123,19 +122,11 @@
 
 ## Wins/Challenges
 
-### Code blocks that I am proud of...
-
-![code1](md_images/code1.jpg)
+### Code blocks...
 
 ![code2](md_images/code2.jpg)
 
-
-#### Wins-1
-> Met requirements, MVP!
-> Step-by-step...was able to move forward by breaking into small bite-size chunks.
-> Learned React! First working full stack app!
-> From the ground up, not a tutorial!
-> Tamed the Heroku beast!
+![code1](md_images/code1.jpg)
 
 #### Challenges
 > Multer, new challenge especially to refresh the profile image automatically.
@@ -143,8 +134,16 @@
 > jQuery incompatible with React.
 > Heroku!!!
 
+
+#### Wins
+> Step-by-step...was able to move forward by breaking into small bite-size chunks.
+> Learned React! First working full stack app!
+> From the ground up, not a tutorial!
+> Tamed the Heroku beast!
+
+
 #### THANK YOU
-To everyone, especially Kenny and Brock!
+To everyone, especially the instructors- Kenny and Brock!
 
 
 
