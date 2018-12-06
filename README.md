@@ -32,19 +32,25 @@ sunset-space.herokuapp.com
 * Decisons
 
 * Wireframes
-![Wireframes](images/wire1.jpg)
 
-![Wireframes](images/wire2.jpg)
+![Wireframes](md_images/wire1.jpg)
+
+![Wireframes](md_images/wire2.jpg)
 
 * ERD (Entity Relationship Diagram)
-![ERD](images/erd.jpg)
+
+![ERD](md_images/erd.jpg)
 
 * Sprint 1: Back-End Build Out
-    * Back-End Test
+    * Define express, mongoose
+    * Define Ports, and DB
+    * Create Models
+    * Create Routes, Controllers
+    * Back-End Testing
     * Use Postman to test all CRUD
 
 * Sprint 2: Front-End Boiler Plate
-    * Skeleton- forms, cards
+    * Skeleton- createforms, cards
     * JWT Auth
     * Sign In/Out
     * Logic/Funcionality
@@ -62,7 +68,9 @@ sunset-space.herokuapp.com
     * Create new API avatar endpoint
 
 * Sprint 5: Heroku
+
 ![Heroku](md_images/heroku.jpg)
+
     * Deploy, debug, changes
     * Deploy, debug, changes
     * Deploy, debug, changes
@@ -75,9 +83,10 @@ sunset-space.herokuapp.com
     * Deploy, debug, changes
     * Deploy, debug, changes
     * Deploy, debug, changes
-![ERD](md_images/debug.jpg)
     * Deploy, debug, changes
     * Deploy, 229 more times!
+
+![ERD](md_images/debug.jpg)
 
 
 * Sprint 6: Fonts/Styles/CSS/SASS
