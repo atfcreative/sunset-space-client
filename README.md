@@ -88,6 +88,9 @@
 * Deploy, debug, changes
 * Deploy, debug, changes
 * Deploy, debug, changes
+
+![Debug](md_images/debug.jpg)
+
 * Deploy, debug, changes
 * Deploy, debug, changes
 * Deploy, debug, changes
@@ -96,7 +99,7 @@
 * Deploy, debug, changes
 * Deploy, 229 more times
 
-![Debug](md_images/debug.jpg)
+
 
 * Sprint 6: Front-End Polish
     * Fonts/Styles/CSS/SASS
