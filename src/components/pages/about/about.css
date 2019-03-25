@@ -1,0 +1,14 @@
+#myCarousel {
+    background-size:cover;
+    width: 100%;
+    background-position: top;
+}
+
+.carousel-inner {
+    background-size:cover;
+    background-position: top;
+}
+
+.first-slide {
+    width: 100%;
+}
