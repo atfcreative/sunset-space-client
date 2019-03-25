@@ -4,6 +4,7 @@ import img2 from './images/slide2.jpg';
 import img3 from './images/slide3.jpg';
 import AboutDetails from './aboutDetails/AboutDetails';
 import SectionFour from '../landing/sectionFour/SectionFour';
+import './about.css';
 
 class About extends Component {
     render() { 
