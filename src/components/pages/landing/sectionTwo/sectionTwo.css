@@ -1,0 +1,13 @@
+.surveyForm {
+    width: 640px;
+    height: 2000px;
+}
+
+@media screen and (max-width: 400px) {
+
+    .surveyForm {
+            width: 380px;
+            height: 1500px;
+            margin: 0 auto;
+        }
+    }
