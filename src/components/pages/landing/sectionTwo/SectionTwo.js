@@ -30,9 +30,6 @@ class SectionTwo extends Component {
                         </ul>
                     </article>
                 </section>
-                <section>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdhsbSQ5zzsWsJUQLl_M32bTkuW4M0uo2hxtsAGvmy0aIAvtQ/viewform?embedded=true" className="surveyForm" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-                </section>
               </div>
             </section>
           );
