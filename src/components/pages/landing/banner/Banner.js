@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from '../../../../images/logo.svg';
 import type from '../../../../images/type.svg';
 import { Link } from 'react-router-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './banner.css';
 
 class Banner extends Component {
@@ -25,7 +26,7 @@ class Banner extends Component {
 
             <ul className="actions">
                 <h6>Help Us make Sunset Space Better for YOU!</h6>
-                <li><Link to="#" className="button">Take the Quick Survey</Link></li>
+                <li><AnchorLink href="#survey" className="button">Take the Quick Survey</AnchorLink></li>
             </ul>
 
             <ul className="actions">
